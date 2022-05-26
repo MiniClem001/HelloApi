@@ -1,0 +1,14 @@
+GET https://localhost:7073/api/hello/greet HTTP/1.1
+content-type: application/json
+
+GET https://localhost:7073/api/hello/greet/Clément HTTP/1.1
+content-type: application/json
+
+GET https://localhost:7073/api/hello/history HTTP/1.1
+content-type: application/json
+
+GET https://localhost:7073/api/hello/history/Clément HTTP/1.1
+content-type: application/json
+
+DELETE https://localhost:7073/api/hello/history/Clément HTTP/1.1
+content-type: application/json
